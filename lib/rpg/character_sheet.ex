@@ -22,16 +22,11 @@ defmodule RPG.CharacterSheet do
   def run() do
     welcome()
 
-    name = ask_name()
-    class = ask_class()
-    level = ask_level()
-
-    character_map = %{
-      name: name,
-      class: class,
-      level: level
+    %{
+      name: ask_name(),
+      class: ask_class(),
+      level: ask_level()
     }
-
-    IO.inspect(character_map, label: "Your character")
+    |> IO.inspect(label: "Your character")
   end
 end
