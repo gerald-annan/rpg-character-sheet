@@ -99,6 +99,10 @@ RPG.CharacterSheet.run()
 
 ## Source
 
+### Solved by
+
+- @gerald-annan
+
 ### Created by
 
 - @angelikatyborska
