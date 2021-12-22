@@ -33,6 +33,5 @@ defmodule RPG.CharacterSheet do
     }
 
     IO.inspect(character_map, label: "Your character")
-    # character_map
   end
 end
